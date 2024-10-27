@@ -1,10 +1,16 @@
+import { Contact, Footer, GoogleMaps, Header, Hero, Services, WorkingHours } from "./components"
 function App() {
-
   return (
+    <>
+      <Header />
+      <Hero />
+      <Services />
+      <WorkingHours />
+      <Contact />
+      <GoogleMaps />
 
-    <div className="container py-4 px-2 bg-success text-center">
-      <span className="">Installed Bootstrap</span>
-    </div>
+      <Footer />
+    </>
   )
 }
 
