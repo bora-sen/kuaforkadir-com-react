@@ -10,7 +10,7 @@ function WorkingHours() {
 
       <div className="row p-5 w-50 mx-auto">
         {Days.map((day, index) => (
-          <div key={index} className="py-4 border-bottom border-dark-subtle working-hour-item mb-2">
+          <div key={index} className="py-4 border-bottom border-dark-subtle working-hour-item">
             <div className="d-flex justify-content-between align-items-center w-100">
               <span>{day}</span>
               <span>{(day == "Pazar") ? "Kapalı" : "08:00 - 20:00"}</span>
