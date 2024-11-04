@@ -1,3 +1,7 @@
 export {default as Email} from "./email.svg" 
 export {default as Phone} from "./phone.svg" 
 export {default as Map} from "./map.svg" 
+export {default as Razor} from "./razor.svg"
+export {default as Chair} from "./chair.svg"
+export {default as Clipper} from "./clipper.svg"
+export {default as Soap} from "./soap.svg"
