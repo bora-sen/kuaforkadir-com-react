@@ -8,7 +8,7 @@ function WorkingHours() {
         <span className="fs-2 font-display">Çalışma Saatlerimiz</span>
       </div>
 
-      <div className="row p-5 w-50 mx-auto">
+      <div className="row p-5 working-hour-width mx-auto">
         {Days.map((day, index) => (
           <div key={index} className="py-4 border-bottom border-dark-subtle working-hour-item">
             <div className="d-flex justify-content-between align-items-center w-100">
