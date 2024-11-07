@@ -64,7 +64,12 @@ function Footer() {
           </a>
         </li>
       </ul>
-      <span>Copyright-Bora</span>
+      <span>
+        Copyright &copy; -{" "}
+        <a className="text-decoration-none text-black-50" href="https://borasen.info">
+          Bora
+        </a>
+      </span>
     </footer>
   )
 }
