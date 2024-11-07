@@ -32,7 +32,7 @@ function Services() {
   )
 
   return (
-    <div ref={AnimationTrigger} className="container-fluid">
+    <section id="Servislerimiz" ref={AnimationTrigger} className="container-fluid">
       <div ref={AnimationContainer} className="container mb-4 py-5 overflow-hidden">
         <div id="services-section" className="row gsap_scroll_go_up">
           <div className="col-auto">
@@ -105,7 +105,7 @@ function Services() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
